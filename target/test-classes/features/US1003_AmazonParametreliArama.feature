@@ -6,3 +6,5 @@ Feature: US1003 kullanıcı istediği kelime için arama yapıp sonucu test eder
     And  sonucun "armut" içerdiğini test eder
     And  sayfayı kapat
 
+
+

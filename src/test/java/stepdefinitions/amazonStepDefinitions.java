@@ -86,4 +86,11 @@ public class amazonStepDefinitions {
 
 
     }
+
+    @And("sonuc sayısını yazdırır")
+    public void sonucSayısınıYazdırır() {
+        System.out.println(amazonPage.sonucyazısı.getText());
+
+
+    }
 }

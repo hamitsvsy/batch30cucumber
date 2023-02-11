@@ -1,5 +1,7 @@
 @Background
 
+
+
 Feature: US1002 amazon background ile arama
 
   Background: amazon sayfasına gitme
