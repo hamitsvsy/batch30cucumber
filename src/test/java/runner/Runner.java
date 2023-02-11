@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions (
         features = "src/test/resources/features",
         glue = "stepdefinitions",
-        tags = "@Background",
+        tags = "@parametre",
 
         dryRun =false
         //dry run = true dediğimizde testi çalıştırmadan eksik adamı verir

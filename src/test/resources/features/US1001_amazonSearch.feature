@@ -1,5 +1,8 @@
-Feature:US1001 amazon arama
 
+
+
+
+  Feature:US1001 amazon arama
   @amazon @nutella
   Scenario:TC01 amazon nutella arama
     When kullanıcı amazon sayfasına gider
