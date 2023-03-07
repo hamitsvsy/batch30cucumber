@@ -1,4 +1,4 @@
-package runner;
+package runners;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -6,10 +6,13 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 
-@CucumberOptions (
+@CucumberOptions(
+        plugin={"html:target\\cucumber-Preports2.html",
+                "json:target/json-reports/Pcucumber2.json",
+                "junit:target/xlm-report/Pcucumber2.xml"},
         features = "src/test/resources/features",
         glue = "stepdefinitions",
-        tags = "@facebook",
+        tags = "@Paralel1",
 
         dryRun =false
         //dry run = true dediğimizde testi çalıştırmadan eksik adamı verir
@@ -18,9 +21,5 @@ import org.junit.runner.RunWith;
 
 )
 
-
-public class Runner {
-
-
-
+public class ParalelTestRunner2 {
 }

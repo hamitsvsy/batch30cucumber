@@ -1,5 +1,5 @@
 Feature: US1003 kullanıcı istediği kelime için arama yapıp sonucu test eder
-    @parametre
+    @rapor2
   Scenario: TC07 istenen kelimenin olduğu test etme
     Given kullanıcı "amazonUrl" sayfasına gider
     And  "armut" için arama yapar

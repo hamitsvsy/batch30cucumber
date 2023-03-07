@@ -1,7 +1,7 @@
 Feature: US1006 Facebook sayfasında farklı kullanıcı ile negative test
 
   @facebook
-  Scenario Outline:farklı kullanıcı isimleri ile negativ test
+  Scenario Outline: TC10 farklı kullanıcı isimleri ile negativ test
 
 
     Given kullanıcı "facebookUrl" sayfasına gider

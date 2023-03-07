@@ -2,7 +2,7 @@ Feature: US1004 ebaybuy sayfasında kelime arama
 
   Scenario:TC08 kullanıcı ebay da istediği kelimeyi aratıp test eder
 
-    Given kullanıcı "amazonUrl" sayfasına gider
+    Given kullanıcı "ebayUrl" sayfasına gider
     Then "nutella" için arama yapar
     And sonucun "nutella" içerdiğini test eder
     Then  sayfayı kapat

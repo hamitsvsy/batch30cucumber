@@ -1,5 +1,6 @@
 package stepdefinitions;
 
+import io.cucumber.java.bs.A;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -10,7 +11,7 @@ import pages.AmazonPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 
-public class amazonStepDefinitions {
+public class AmazonStepDefinitions {
     AmazonPage amazonPage = new AmazonPage();
 
     @When("kullanıcı amazon sayfasına gider")
@@ -92,5 +93,12 @@ public class amazonStepDefinitions {
         System.out.println(amazonPage.sonucyazısı.getText());
 
 
+    }
+
+
+
+    @Then("baslığın {string} içerdiğini test eder")
+    public void baslığınIçerdiğiniTestEder(String arananKelime) {
+        Assert.assertTrue(Driver.getDriver().getTitle().contains(arananKelime));
     }
 }

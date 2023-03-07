@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="22.678">
+    <testcase classname="US1009 editor sayfasında gırıs yapılabildiğini test et" name="TC13  editor sayfasına farklı kişiler ekleme" time="13.739">
+        <system-out>
+            <![CDATA[Given kullanıcı "editorUrl" sayfasına gider.................................passed
+Then new butonuna basar.....................................................passed
+And editor firstname kutusuna "erdem" bilgileri girer.......................passed
+And editor lastname kutusuna "tetik" bilgileri girer........................passed
+And editor position kutusuna "TestLead" bilgileri girer.....................passed
+And editor office kutusuna "Paris" bilgileri girer..........................passed
+And editor extension kutusuna "124" bilgileri girer.........................passed
+And editor startdate kutusuna "2020-12-12" bilgileri girer..................passed
+And editor salary kutusuna "800000" bilgileri girer.........................passed
+And Create tusuna basar.....................................................passed
+Then "erdem" ve  "tetik" girerek kaydın tamamlandığını test eder............passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1009 editor sayfasında gırıs yapılabildiğini test et" name="TC13  editor sayfasına farklı kişiler ekleme 2" time="4.359">
+        <system-out>
+            <![CDATA[Given kullanıcı "editorUrl" sayfasına gider.................................passed
+Then new butonuna basar.....................................................passed
+And editor firstname kutusuna "ali" bilgileri girer.........................passed
+And editor lastname kutusuna "veli" bilgileri girer.........................passed
+And editor position kutusuna "qa" bilgileri girer...........................passed
+And editor office kutusuna "çorum" bilgileri girer..........................passed
+And editor extension kutusuna "19" bilgileri girer..........................passed
+And editor startdate kutusuna "2023-01-29" bilgileri girer..................passed
+And editor salary kutusuna "40000" bilgileri girer..........................passed
+And Create tusuna basar.....................................................passed
+Then "ali" ve  "veli" girerek kaydın tamamlandığını test eder...............passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1009 editor sayfasında gırıs yapılabildiğini test et" name="TC13  editor sayfasına farklı kişiler ekleme 3" time="4.401">
+        <system-out>
+            <![CDATA[Given kullanıcı "editorUrl" sayfasına gider.................................passed
+Then new butonuna basar.....................................................passed
+And editor firstname kutusuna "nilay" bilgileri girer.......................passed
+And editor lastname kutusuna "dorsa" bilgileri girer........................passed
+And editor position kutusuna "ba" bilgileri girer...........................passed
+And editor office kutusuna "van" bilgileri girer............................passed
+And editor extension kutusuna "55" bilgileri girer..........................passed
+And editor startdate kutusuna "2019-07-30" bilgileri girer..................passed
+And editor salary kutusuna "500000" bilgileri girer.........................passed
+And Create tusuna basar.....................................................passed
+Then "nilay" ve  "dorsa" girerek kaydın tamamlandığını test eder............passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

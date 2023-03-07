@@ -4,7 +4,7 @@ import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import pages.FacebookPage;
 
-public class facebookStepDefinitions {
+public class FacebookStepDefinitions {
 
     FacebookPage facebookPage = new FacebookPage();
 
